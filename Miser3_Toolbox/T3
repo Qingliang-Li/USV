@@ -1,0 +1,120 @@
+*************************       File Information      *************************
+ File Title: T3
+ Last Change: Fri Nov 20 15:36:32 2020
+ File Type: INPUT
+ MISER3 Version:  2.0 
+ Restart Info: EDIT0000, RESTART0000
+
+*************************      System Information     *************************
+ ns =        4           (number of states)
+ nc =        2           (number of controls)
+ nz =        2           (number of system parameters)
+ tstart   0.00000000e+00 (objective functional integral lower limit)
+ tfinal   1.00000000e+00 (objective functional integral upper limit)
+ lab = F                 (objective or constraints use abs smoothing)
+
+*************************     Knot Sets Definition    *************************
+ nksets =    1           (number of knot sets)
+ knot set #     knot type     number of knots
+     1              0               21
+
+*************************  Knots for Type 1 Knot Sets *************************
+
+*************************      Control Definition     *************************
+ control #   knot set   continuity  regularization type
+     1           1           0            -1 -1 -1  -1 -1 -1  -1 -1 -1
+     2           1           0            -1 -1 -1  -1 -1 -1  -1 -1 -1
+
+****************** Control lower initial upper regularization *****************
+ control # 1
+   1   -1.0000e-01  8.50408853e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+   2   -1.0000e-01 -7.74713389e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+   3   -1.0000e-01 -3.53366280e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+   4   -1.0000e-01  7.51425603e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+   5   -1.0000e-01 -4.14597332e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+   6   -1.0000e-01  7.50989782e-03  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+   7   -1.0000e-01  8.86446395e-03  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+   8   -1.0000e-01 -5.99360663e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+   9   -1.0000e-01  3.08512257e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  10   -1.0000e-01 -7.12280746e-05  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  11   -1.0000e-01 -2.12909114e-05  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  12   -1.0000e-01  9.98185233e-05  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  13   -1.0000e-01  9.94205484e-05  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  14   -1.0000e-01 -3.13368847e-05  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  15   -1.0000e-01 -9.99595716e-05  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  16   -1.0000e-01 -2.29601258e-05  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  17   -1.0000e-01  9.95405781e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  18   -1.0000e-01  9.92697000e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  19   -1.0000e-01  9.98183659e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+  20   -1.0000e-01  9.49528856e-02  1.0000e-01  0.00e+00  0.00e+00  0.00e+00 
+ control # 2
+   1   -2.0000e+00  8.07574831e-01  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+   2   -2.0000e+00 -2.85450871e-03  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+   3   -2.0000e+00 -1.29598870e-03  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+   4   -2.0000e+00  3.04287110e-03  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+   5   -2.0000e+00 -4.08875713e-02  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+   6   -2.0000e+00  4.32822491e-02  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+   7   -2.0000e+00 -1.45196278e-02  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+   8   -2.0000e+00 -1.05948927e-01  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+   9   -2.0000e+00  1.11086680e-01  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  10   -2.0000e+00  8.39573156e-03  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  11   -2.0000e+00 -8.97375273e-02  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  12   -2.0000e+00  8.84021830e-02  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  13   -2.0000e+00  2.81701410e-08  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  14   -2.0000e+00 -7.16199221e-05  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  15   -2.0000e+00  6.04986626e-05  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  16   -2.0000e+00 -9.50433772e-05  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  17   -2.0000e+00 -1.35776224e-05  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  18   -2.0000e+00  2.20840928e-05  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  19   -2.0000e+00  4.09136942e-05  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+  20   -2.0000e+00 -2.30053928e-05  2.0000e+00  0.00e+00  0.00e+00  0.00e+00 
+
+*************************      System Parameters      *************************
+ No.  lower bound     initial value   upper bound
+    1       0.00000000e+00  1.00000000e+02  5.00000000e+02
+    2       1.00000000e-05  1.00000000e-02  3.00000000e-01
+
+*************************    Constraint Information   *************************
+    0    0    0           (Equality constraints of type)
+    0    0    0           (Inequality constraints of type)
+No.  Type            Characteristic Time  Eps-Tau Smooth  Abs Smoothing
+
+*************************    Accuracy and Tolerance   *************************
+ tolx =   1.00000000e-09 (state equation tolerance)
+ tolpsi   1.00000000e-09 (co-state equation tolerance)
+ hmax =   1.00000000e-02 (quadrature interval relative maximum)
+ reltest  1.00000000e+00 (relative error test)
+ epsjts   1.00000000e-02 (eps of eps-tau algorithm)
+ taujts   2.50000000e-03 (tau of eps-tau algorithm)
+ rhoabs   1.00000000e-02 (rho of abs smoothing)
+
+*************************    Optimization Selection   *************************
+ maxite=  1000           (Maximum Number of Iterations)
+ maxfun=  3000           (Maximum Number of Function Calls)
+ optprt=     2           (Optimization reporting level on printing)
+ epsopt=  1.00000000e-05 (Accuracy for variables and function)
+ epscon=  1.00000000e-07 (Constraint accuracy)
+ lsearch=    0           (Line Search - quad/cubic (0); cubic (1))
+
+*****************    Derivatives of User Supplied Functions   *****************
+ 0--analytic (user supplied) derivatives;  1--numerical derivatives
+                  f    g0    phi    g    x0
+ x derivatives    1     1     1     1      
+ u derivatives    1     1           1      
+ z derivatives    1     1     1     1     1
+
+*************************   Input, Output and Error   *************************
+ error messages:   kout1=  1  fnout1= T3.err
+ restart file:     kout2=  1  fnout2= T3.res
+ solution file:    kout3=  0  fnout3= T3.sol
+ save file:        kout4=  1  fnout6= T3.sav
+
+*************************        Miscellaneous        *************************
+ ncheck = 9999           (Frequency of user derivative check)
+ ststiff =   0           (State ode solver - ode45 (0); ode15s (stiff) (1))
+ costiff =   0           (Costate ode solver - ode45 (0); ode15s (stiff) (1))
+ nsave =    10           (How often to save)
+ kabs =      1           (Which absolute value smoothing)
+ nupar =     0           (How many user parameters)
+
+*************************       End of Data File      *************************
